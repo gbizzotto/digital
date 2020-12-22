@@ -103,7 +103,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Exc</string>
+          <string>2nd</string>
         </entry>
       </elementAttributes>
       <pos x="460" y="-2800"/>
@@ -113,7 +113,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>PC++</string>
+          <string>1st</string>
         </entry>
       </elementAttributes>
       <pos x="-140" y="-2800"/>

@@ -618,6 +618,10 @@
       <elementName>CounterPreset</elementName>
       <elementAttributes>
         <entry>
+          <string>Label</string>
+          <string>PC</string>
+        </entry>
+        <entry>
           <string>Bits</string>
           <int>16</int>
         </entry>

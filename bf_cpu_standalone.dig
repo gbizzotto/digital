@@ -866,6 +866,16 @@
       </elementAttributes>
       <pos x="1580" y="300"/>
     </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Rst</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2500" y="-540"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>

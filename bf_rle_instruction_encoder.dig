@@ -53,7 +53,7 @@
 
 0x00 [
 0x40 ]
-0x80 .
+0x80 ,
 0xC0 .</string>
         </entry>
       </elementAttributes>
@@ -311,7 +311,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>192</long>
+          <long>128</long>
         </entry>
         <entry>
           <string>Bits</string>

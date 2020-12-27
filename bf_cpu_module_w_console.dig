@@ -145,11 +145,6 @@ a,2e,2d,2d,2d,2e,2b,2b,2b,2b,2b,2b,2e,2d,2d,2d,2d,2d,2d,2d,2e,2d,2d,2d,2d,2d,2d,
       <pos x="240" y="320"/>
     </visualElement>
     <visualElement>
-      <elementName>bf_cpu_module.dig</elementName>
-      <elementAttributes/>
-      <pos x="200" y="100"/>
-    </visualElement>
-    <visualElement>
       <elementName>Terminal</elementName>
       <elementAttributes>
         <entry>
@@ -172,6 +167,11 @@ a,2e,2d,2d,2d,2e,2b,2b,2b,2b,2b,2b,2e,2d,2d,2d,2d,2d,2d,2d,2e,2d,2d,2d,2d,2d,2d,
       <elementName>Break</elementName>
       <elementAttributes/>
       <pos x="400" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>bf_2_module.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="100"/>
     </visualElement>
   </visualElements>
   <wires>

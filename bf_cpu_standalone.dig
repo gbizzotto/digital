@@ -8,7 +8,7 @@
     </entry>
     <entry>
       <string>preloadProgramFile</string>
-      <file>mandelbrot.b</file>
+      <file>hw.b</file>
     </entry>
   </attributes>
   <visualElements>
@@ -56,10 +56,6 @@
     <visualElement>
       <elementName>Clock</elementName>
       <elementAttributes>
-        <entry>
-          <string>runRealTime</string>
-          <boolean>true</boolean>
-        </entry>
         <entry>
           <string>Frequency</string>
           <int>1000000000</int>
@@ -178,7 +174,7 @@
         <entry>
           <string>Data</string>
           <data>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,1,8,2,7,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1,8,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,5,0,6</data>
         </entry>
       </elementAttributes>
@@ -383,7 +379,7 @@ opcode</string>
           <string>count</string>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="660"/>
+      <pos x="1780" y="660"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -413,20 +409,6 @@ opcode</string>
         </entry>
       </elementAttributes>
       <pos x="1060" y="480"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>12</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>old opcode</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1740" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -550,7 +532,7 @@ opcode</string>
           <int>36</int>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="-120"/>
+      <pos x="980" y="-120"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -561,7 +543,7 @@ opcode</string>
         </entry>
         <entry>
           <string>RectHeight</string>
-          <int>25</int>
+          <int>32</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -644,7 +626,7 @@ thus the delay</string>
           <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="1100" y="840"/>
+      <pos x="1100" y="980"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -658,7 +640,7 @@ thus the delay</string>
           <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="860"/>
+      <pos x="1080" y="1000"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -672,7 +654,7 @@ thus the delay</string>
           <string>old is [</string>
         </entry>
       </elementAttributes>
-      <pos x="1160" y="860"/>
+      <pos x="1160" y="1000"/>
     </visualElement>
     <visualElement>
       <elementName>RAMDualPort</elementName>
@@ -690,22 +672,22 @@ thus the delay</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="1740" y="880"/>
+      <pos x="1740" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
       <elementAttributes/>
-      <pos x="1720" y="960"/>
+      <pos x="1720" y="1100"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
       <elementAttributes/>
-      <pos x="1720" y="920"/>
+      <pos x="1720" y="1060"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
       <elementAttributes/>
-      <pos x="1360" y="880"/>
+      <pos x="1360" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>CounterPreset</elementName>
@@ -715,12 +697,12 @@ thus the delay</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1600" y="880"/>
+      <pos x="1600" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="1580" y="980"/>
+      <pos x="1580" y="1120"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -734,17 +716,17 @@ thus the delay</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1580" y="940"/>
+      <pos x="1580" y="1080"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
       <elementAttributes/>
-      <pos x="1220" y="860"/>
+      <pos x="1220" y="1000"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="1580" y="960"/>
+      <pos x="1580" y="1100"/>
     </visualElement>
     <visualElement>
       <elementName>Delay</elementName>
@@ -754,7 +736,7 @@ thus the delay</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="980" y="900"/>
+      <pos x="980" y="1040"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -792,12 +774,12 @@ thus the delay</string>
           <string>old is ]</string>
         </entry>
       </elementAttributes>
-      <pos x="1140" y="1080"/>
+      <pos x="1140" y="1220"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
       <elementAttributes/>
-      <pos x="1220" y="1040"/>
+      <pos x="1220" y="1180"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -839,7 +821,12 @@ thus the delay</string>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
       <pos x="1380" y="-80"/>
     </visualElement>
     <visualElement>
@@ -887,7 +874,12 @@ thus the delay</string>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
       <pos x="1380" y="0"/>
     </visualElement>
     <visualElement>
@@ -908,7 +900,7 @@ thus the delay</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="1940" y="1060"/>
+      <pos x="1940" y="1200"/>
     </visualElement>
     <visualElement>
       <elementName>16x20b_ram_input_selector.dig</elementName>
@@ -951,7 +943,7 @@ thus the delay</string>
     <visualElement>
       <elementName>And</elementName>
       <elementAttributes/>
-      <pos x="2060" y="1060"/>
+      <pos x="2060" y="1200"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -961,19 +953,19 @@ thus the delay</string>
           <boolean>true</boolean>
         </entry>
         <entry>
-          <string>Label</string>
-          <string>JMPs resolution</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>16</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>JMPs resolution</string>
         </entry>
         <entry>
           <string>RectWidth</string>
           <int>64</int>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="820"/>
+      <pos x="1040" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>CounterPreset</elementName>
@@ -987,25 +979,25 @@ thus the delay</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="3400" y="-280"/>
+      <pos x="3400" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>RAMDualPort</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>RAM</string>
-        </entry>
-        <entry>
           <string>AddrBits</string>
           <int>16</int>
         </entry>
         <entry>
+          <string>Label</string>
+          <string>RAM</string>
+        </entry>
+        <entry>
           <string>Bits</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="3600" y="-280"/>
+      <pos x="3600" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>Add</elementName>
@@ -1015,7 +1007,7 @@ thus the delay</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="3600" y="-100"/>
+      <pos x="3600" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Add</elementName>
@@ -1025,18 +1017,18 @@ thus the delay</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="3400" y="-100"/>
+      <pos x="3400" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Decoder</elementName>
       <elementAttributes>
         <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Selector Bits</string>
           <int>4</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="2780" y="360"/>
@@ -1136,93 +1128,37 @@ thus the delay</string>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="3380" y="-60"/>
+      <pos x="3380" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="3580" y="-60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="3520" y="240"/>
+      <pos x="3580" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
       <elementAttributes/>
-      <pos x="3580" y="-200"/>
+      <pos x="3580" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="3380" y="-180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="3300" y="240"/>
+      <pos x="3380" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="3380" y="-240"/>
+      <pos x="3380" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="3380" y="-280"/>
+      <pos x="3380" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
       <elementAttributes/>
       <pos x="2860" y="320"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Delay</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>delayTime</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="3540" y="120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Delay</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>delayTime</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="3320" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -1236,7 +1172,7 @@ thus the delay</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="3280" y="-320"/>
+      <pos x="3280" y="-20"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -1254,7 +1190,7 @@ thus the delay</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="3300" y="-320"/>
+      <pos x="3300" y="-20"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -1278,7 +1214,7 @@ thus the delay</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="3760" y="-240"/>
+      <pos x="3760" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -1304,19 +1240,19 @@ thus the delay</string>
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>BF CPU</string>
+          <string>RectHeight</string>
+          <int>40</int>
         </entry>
         <entry>
-          <string>RectHeight</string>
-          <int>55</int>
+          <string>Label</string>
+          <string>BF CPU</string>
         </entry>
         <entry>
           <string>RectWidth</string>
           <int>60</int>
         </entry>
       </elementAttributes>
-      <pos x="2700" y="-400"/>
+      <pos x="2700" y="-100"/>
     </visualElement>
     <visualElement>
       <elementName>Terminal</elementName>
@@ -1330,17 +1266,17 @@ thus the delay</string>
           <int>50</int>
         </entry>
       </elementAttributes>
-      <pos x="3840" y="120"/>
+      <pos x="3840" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
       <elementAttributes/>
-      <pos x="3820" y="160"/>
+      <pos x="3820" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
       <elementAttributes/>
-      <pos x="3580" y="-240"/>
+      <pos x="3580" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -1354,83 +1290,7 @@ thus the delay</string>
           <string>8,8</string>
         </entry>
       </elementAttributes>
-      <pos x="3380" y="300"/>
-    </visualElement>
-    <visualElement>
-      <elementName>_8x1_and.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-      </elementAttributes>
-      <pos x="3460" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>_16x1_and.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-      </elementAttributes>
-      <pos x="3240" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Neg</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-      </elementAttributes>
-      <pos x="3260" y="280"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Multiplexer</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-      </elementAttributes>
-      <pos x="3220" y="200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Neg</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-      </elementAttributes>
-      <pos x="3480" y="280"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Multiplexer</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-      </elementAttributes>
-      <pos x="3440" y="200"/>
+      <pos x="3440" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Delay</elementName>
@@ -1631,6 +1491,105 @@ thus the delay</string>
       </elementAttributes>
       <pos x="2800" y="360"/>
     </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>opc is inverse</string>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,6</data>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="920" y="880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1780" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>12</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>old opcode
+withour - or &lt;</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1520" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Neg</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1700" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Break</elementName>
+      <elementAttributes/>
+      <pos x="1140" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>EOP</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2960" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>EOP</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="1140" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes/>
+      <pos x="1060" y="0"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -1642,48 +1601,16 @@ thus the delay</string>
       <p2 x="2280" y="640"/>
     </wire>
     <wire>
-      <p1 x="3480" y="0"/>
-      <p2 x="3560" y="0"/>
+      <p1 x="1480" y="640"/>
+      <p2 x="1880" y="640"/>
     </wire>
     <wire>
       <p1 x="1240" y="0"/>
       <p2 x="1380" y="0"/>
     </wire>
     <wire>
-      <p1 x="3560" y="-260"/>
-      <p2 x="3600" y="-260"/>
-    </wire>
-    <wire>
-      <p1 x="3320" y="-260"/>
-      <p2 x="3340" y="-260"/>
-    </wire>
-    <wire>
-      <p1 x="3340" y="-260"/>
-      <p2 x="3400" y="-260"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="900"/>
-      <p2 x="980" y="900"/>
-    </wire>
-    <wire>
-      <p1 x="1700" y="900"/>
-      <p2 x="1740" y="900"/>
-    </wire>
-    <wire>
-      <p1 x="1420" y="900"/>
-      <p2 x="1580" y="900"/>
-    </wire>
-    <wire>
-      <p1 x="1020" y="900"/>
-      <p2 x="1200" y="900"/>
-    </wire>
-    <wire>
-      <p1 x="1200" y="900"/>
-      <p2 x="1220" y="900"/>
-    </wire>
-    <wire>
-      <p1 x="1580" y="900"/>
-      <p2 x="1600" y="900"/>
+      <p1 x="1040" y="0"/>
+      <p2 x="1060" y="0"/>
     </wire>
     <wire>
       <p1 x="420" y="260"/>
@@ -1714,6 +1641,10 @@ thus the delay</string>
       <p2 x="2640" y="260"/>
     </wire>
     <wire>
+      <p1 x="3740" y="260"/>
+      <p2 x="3840" y="260"/>
+    </wire>
+    <wire>
       <p1 x="2820" y="520"/>
       <p2 x="3760" y="520"/>
     </wire>
@@ -1730,28 +1661,36 @@ thus the delay</string>
       <p2 x="2280" y="520"/>
     </wire>
     <wire>
-      <p1 x="3560" y="-140"/>
-      <p2 x="3700" y="-140"/>
-    </wire>
-    <wire>
-      <p1 x="3360" y="-140"/>
-      <p2 x="3500" y="-140"/>
-    </wire>
-    <wire>
-      <p1 x="3740" y="140"/>
-      <p2 x="3840" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="3500" y="140"/>
-      <p2 x="3540" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="3280" y="140"/>
-      <p2 x="3320" y="140"/>
+      <p1 x="1300" y="1160"/>
+      <p2 x="1700" y="1160"/>
     </wire>
     <wire>
       <p1 x="420" y="780"/>
       <p2 x="940" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="1040"/>
+      <p2 x="980" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="1040"/>
+      <p2 x="1740" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="1420" y="1040"/>
+      <p2 x="1580" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="1040"/>
+      <p2 x="1200" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="1040"/>
+      <p2 x="1220" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="1580" y="1040"/>
+      <p2 x="1600" y="1040"/>
     </wire>
     <wire>
       <p1 x="2480" y="400"/>
@@ -1767,19 +1706,11 @@ thus the delay</string>
     </wire>
     <wire>
       <p1 x="2820" y="400"/>
-      <p2 x="3500" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="3560" y="400"/>
       <p2 x="3760" y="400"/>
     </wire>
     <wire>
-      <p1 x="3500" y="400"/>
-      <p2 x="3560" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="1200" y="1040"/>
-      <p2 x="1220" y="1040"/>
+      <p1 x="3280" y="-20"/>
+      <p2 x="3300" y="-20"/>
     </wire>
     <wire>
       <p1 x="2820" y="660"/>
@@ -1790,12 +1721,20 @@ thus the delay</string>
       <p2 x="1360" y="660"/>
     </wire>
     <wire>
+      <p1 x="1440" y="660"/>
+      <p2 x="1600" y="660"/>
+    </wire>
+    <wire>
       <p1 x="1660" y="660"/>
+      <p2 x="1680" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1840" y="660"/>
       <p2 x="1860" y="660"/>
     </wire>
     <wire>
-      <p1 x="1440" y="660"/>
-      <p2 x="1600" y="660"/>
+      <p1 x="1680" y="660"/>
+      <p2 x="1780" y="660"/>
     </wire>
     <wire>
       <p1 x="3100" y="20"/>
@@ -1806,20 +1745,32 @@ thus the delay</string>
       <p2 x="1520" y="20"/>
     </wire>
     <wire>
+      <p1 x="1120" y="20"/>
+      <p2 x="1140" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1180" y="20"/>
+      <p2 x="1200" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="3460" y="20"/>
+      <p2 x="3480" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="3380" y="20"/>
+      <p2 x="3400" y="20"/>
+    </wire>
+    <wire>
       <p1 x="1520" y="20"/>
       <p2 x="1560" y="20"/>
     </wire>
     <wire>
-      <p1 x="3460" y="-280"/>
-      <p2 x="3480" y="-280"/>
+      <p1 x="1200" y="20"/>
+      <p2 x="1380" y="20"/>
     </wire>
     <wire>
-      <p1 x="3380" y="-280"/>
-      <p2 x="3400" y="-280"/>
-    </wire>
-    <wire>
-      <p1 x="3480" y="-280"/>
-      <p2 x="3600" y="-280"/>
+      <p1 x="3480" y="20"/>
+      <p2 x="3600" y="20"/>
     </wire>
     <wire>
       <p1 x="440" y="280"/>
@@ -1838,6 +1789,10 @@ thus the delay</string>
       <p2 x="1120" y="280"/>
     </wire>
     <wire>
+      <p1 x="3820" y="280"/>
+      <p2 x="3840" y="280"/>
+    </wire>
+    <wire>
       <p1 x="760" y="280"/>
       <p2 x="780" y="280"/>
     </wire>
@@ -1850,24 +1805,8 @@ thus the delay</string>
       <p2 x="900" y="280"/>
     </wire>
     <wire>
-      <p1 x="1720" y="920"/>
-      <p2 x="1740" y="920"/>
-    </wire>
-    <wire>
-      <p1 x="1420" y="920"/>
-      <p2 x="1600" y="920"/>
-    </wire>
-    <wire>
-      <p1 x="1340" y="920"/>
-      <p2 x="1360" y="920"/>
-    </wire>
-    <wire>
-      <p1 x="1800" y="920"/>
-      <p2 x="1820" y="920"/>
-    </wire>
-    <wire>
-      <p1 x="1820" y="920"/>
-      <p2 x="2160" y="920"/>
+      <p1 x="1200" y="1180"/>
+      <p2 x="1220" y="1180"/>
     </wire>
     <wire>
       <p1 x="2820" y="540"/>
@@ -1878,8 +1817,12 @@ thus the delay</string>
       <p2 x="2280" y="540"/>
     </wire>
     <wire>
-      <p1 x="3820" y="160"/>
-      <p2 x="3840" y="160"/>
+      <p1 x="3560" y="160"/>
+      <p2 x="3700" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="3360" y="160"/>
+      <p2 x="3500" y="160"/>
     </wire>
     <wire>
       <p1 x="340" y="160"/>
@@ -1890,8 +1833,28 @@ thus the delay</string>
       <p2 x="1100" y="160"/>
     </wire>
     <wire>
+      <p1 x="1720" y="1060"/>
+      <p2 x="1740" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="1420" y="1060"/>
+      <p2 x="1600" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1060"/>
+      <p2 x="1360" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="1800" y="1060"/>
+      <p2 x="1820" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="1060"/>
+      <p2 x="2160" y="1060"/>
+    </wire>
+    <wire>
       <p1 x="2820" y="420"/>
-      <p2 x="3300" y="420"/>
+      <p2 x="3340" y="420"/>
     </wire>
     <wire>
       <p1 x="1100" y="420"/>
@@ -1902,7 +1865,7 @@ thus the delay</string>
       <p2 x="2280" y="420"/>
     </wire>
     <wire>
-      <p1 x="3300" y="420"/>
+      <p1 x="3340" y="420"/>
       <p2 x="3760" y="420"/>
     </wire>
     <wire>
@@ -1910,28 +1873,28 @@ thus the delay</string>
       <p2 x="1280" y="420"/>
     </wire>
     <wire>
-      <p1 x="1980" y="1060"/>
-      <p2 x="2060" y="1060"/>
-    </wire>
-    <wire>
-      <p1 x="1280" y="1060"/>
-      <p2 x="1320" y="1060"/>
-    </wire>
-    <wire>
-      <p1 x="1900" y="1060"/>
-      <p2 x="1940" y="1060"/>
-    </wire>
-    <wire>
-      <p1 x="1320" y="1060"/>
-      <p2 x="1900" y="1060"/>
-    </wire>
-    <wire>
       <p1 x="1080" y="-40"/>
       <p2 x="1240" y="-40"/>
     </wire>
     <wire>
+      <p1 x="3280" y="-40"/>
+      <p2 x="3700" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="3160" y="-40"/>
+      <p2 x="3220" y="-40"/>
+    </wire>
+    <wire>
       <p1 x="1240" y="-40"/>
       <p2 x="1380" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="3560" y="40"/>
+      <p2 x="3600" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="3340" y="40"/>
+      <p2 x="3400" y="40"/>
     </wire>
     <wire>
       <p1 x="3020" y="40"/>
@@ -1944,6 +1907,10 @@ thus the delay</string>
     <wire>
       <p1 x="1520" y="40"/>
       <p2 x="1540" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="40"/>
+      <p2 x="1060" y="40"/>
     </wire>
     <wire>
       <p1 x="1900" y="680"/>
@@ -1970,6 +1937,10 @@ thus the delay</string>
       <p2 x="1540" y="680"/>
     </wire>
     <wire>
+      <p1 x="1820" y="680"/>
+      <p2 x="1840" y="680"/>
+    </wire>
+    <wire>
       <p1 x="1440" y="680"/>
       <p2 x="1460" y="680"/>
     </wire>
@@ -1979,7 +1950,7 @@ thus the delay</string>
     </wire>
     <wire>
       <p1 x="2640" y="300"/>
-      <p2 x="3220" y="300"/>
+      <p2 x="3360" y="300"/>
     </wire>
     <wire>
       <p1 x="680" y="300"/>
@@ -1994,40 +1965,32 @@ thus the delay</string>
       <p2 x="2000" y="300"/>
     </wire>
     <wire>
-      <p1 x="3400" y="300"/>
+      <p1 x="3460" y="300"/>
+      <p2 x="3560" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="3360" y="300"/>
       <p2 x="3440" y="300"/>
     </wire>
     <wire>
-      <p1 x="3480" y="300"/>
+      <p1 x="3560" y="300"/>
       <p2 x="3760" y="300"/>
     </wire>
     <wire>
-      <p1 x="3220" y="300"/>
-      <p2 x="3260" y="300"/>
+      <p1 x="1980" y="1200"/>
+      <p2 x="2060" y="1200"/>
     </wire>
     <wire>
-      <p1 x="3440" y="300"/>
-      <p2 x="3480" y="300"/>
+      <p1 x="1280" y="1200"/>
+      <p2 x="1320" y="1200"/>
     </wire>
     <wire>
-      <p1 x="3260" y="300"/>
-      <p2 x="3380" y="300"/>
+      <p1 x="1320" y="1200"/>
+      <p2 x="1900" y="1200"/>
     </wire>
     <wire>
-      <p1 x="1700" y="940"/>
-      <p2 x="1740" y="940"/>
-    </wire>
-    <wire>
-      <p1 x="1580" y="940"/>
-      <p2 x="1600" y="940"/>
-    </wire>
-    <wire>
-      <p1 x="1320" y="940"/>
-      <p2 x="1340" y="940"/>
-    </wire>
-    <wire>
-      <p1 x="1340" y="940"/>
-      <p2 x="1420" y="940"/>
+      <p1 x="1900" y="1200"/>
+      <p2 x="1940" y="1200"/>
     </wire>
     <wire>
       <p1 x="2820" y="560"/>
@@ -2046,16 +2009,28 @@ thus the delay</string>
       <p2 x="2280" y="560"/>
     </wire>
     <wire>
-      <p1 x="3380" y="-180"/>
-      <p2 x="3400" y="-180"/>
+      <p1 x="3560" y="180"/>
+      <p2 x="3680" y="180"/>
     </wire>
     <wire>
-      <p1 x="3260" y="180"/>
-      <p2 x="3280" y="180"/>
+      <p1 x="3360" y="180"/>
+      <p2 x="3480" y="180"/>
     </wire>
     <wire>
-      <p1 x="3480" y="180"/>
-      <p2 x="3500" y="180"/>
+      <p1 x="1700" y="1080"/>
+      <p2 x="1740" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="1580" y="1080"/>
+      <p2 x="1600" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="1320" y="1080"/>
+      <p2 x="1340" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1080"/>
+      <p2 x="1420" y="1080"/>
     </wire>
     <wire>
       <p1 x="1340" y="440"/>
@@ -2075,39 +2050,23 @@ thus the delay</string>
     </wire>
     <wire>
       <p1 x="2820" y="440"/>
-      <p2 x="3280" y="440"/>
-    </wire>
-    <wire>
-      <p1 x="3340" y="440"/>
       <p2 x="3760" y="440"/>
-    </wire>
-    <wire>
-      <p1 x="3280" y="440"/>
-      <p2 x="3340" y="440"/>
     </wire>
     <wire>
       <p1 x="2080" y="440"/>
       <p2 x="2280" y="440"/>
     </wire>
     <wire>
-      <p1 x="1180" y="1080"/>
-      <p2 x="1220" y="1080"/>
-    </wire>
-    <wire>
-      <p1 x="2120" y="1080"/>
-      <p2 x="2200" y="1080"/>
-    </wire>
-    <wire>
       <p1 x="1440" y="-60"/>
       <p2 x="1560" y="-60"/>
     </wire>
     <wire>
-      <p1 x="3380" y="-60"/>
-      <p2 x="3400" y="-60"/>
+      <p1 x="1200" y="-60"/>
+      <p2 x="1380" y="-60"/>
     </wire>
     <wire>
-      <p1 x="3580" y="-60"/>
-      <p2 x="3600" y="-60"/>
+      <p1 x="3140" y="-60"/>
+      <p2 x="3220" y="-60"/>
     </wire>
     <wire>
       <p1 x="3100" y="60"/>
@@ -2116,6 +2075,38 @@ thus the delay</string>
     <wire>
       <p1 x="2120" y="60"/>
       <p2 x="2940" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="60"/>
+      <p2 x="1120" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="3380" y="60"/>
+      <p2 x="3400" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="3580" y="60"/>
+      <p2 x="3600" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="3660" y="60"/>
+      <p2 x="3680" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="3740" y="60"/>
+      <p2 x="3760" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="3700" y="60"/>
+      <p2 x="3740" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="60"/>
+      <p2 x="1140" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="3680" y="60"/>
+      <p2 x="3700" y="60"/>
     </wire>
     <wire>
       <p1 x="360" y="700"/>
@@ -2130,8 +2121,12 @@ thus the delay</string>
       <p2 x="1860" y="700"/>
     </wire>
     <wire>
-      <p1 x="3280" y="-320"/>
-      <p2 x="3300" y="-320"/>
+      <p1 x="1760" y="700"/>
+      <p2 x="1780" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="700"/>
+      <p2 x="1700" y="700"/>
     </wire>
     <wire>
       <p1 x="2480" y="320"/>
@@ -2170,20 +2165,16 @@ thus the delay</string>
       <p2 x="2160" y="320"/>
     </wire>
     <wire>
-      <p1 x="1720" y="960"/>
-      <p2 x="1740" y="960"/>
+      <p1 x="1180" y="1220"/>
+      <p2 x="1220" y="1220"/>
     </wire>
     <wire>
-      <p1 x="1580" y="960"/>
-      <p2 x="1600" y="960"/>
+      <p1 x="2120" y="1220"/>
+      <p2 x="2200" y="1220"/>
     </wire>
     <wire>
       <p1 x="2820" y="580"/>
       <p2 x="2860" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="1000" y="580"/>
-      <p2 x="1040" y="580"/>
     </wire>
     <wire>
       <p1 x="2020" y="580"/>
@@ -2198,6 +2189,10 @@ thus the delay</string>
       <p2 x="2280" y="580"/>
     </wire>
     <wire>
+      <p1 x="1000" y="580"/>
+      <p2 x="1040" y="580"/>
+    </wire>
+    <wire>
       <p1 x="1040" y="580"/>
       <p2 x="1060" y="580"/>
     </wire>
@@ -2206,24 +2201,36 @@ thus the delay</string>
       <p2 x="2000" y="580"/>
     </wire>
     <wire>
-      <p1 x="3580" y="-200"/>
-      <p2 x="3600" y="-200"/>
-    </wire>
-    <wire>
-      <p1 x="3340" y="-200"/>
-      <p2 x="3400" y="-200"/>
-    </wire>
-    <wire>
       <p1 x="1200" y="200"/>
       <p2 x="1320" y="200"/>
     </wire>
     <wire>
-      <p1 x="1060" y="840"/>
-      <p2 x="1100" y="840"/>
+      <p1 x="3560" y="200"/>
+      <p2 x="3600" y="200"/>
     </wire>
     <wire>
-      <p1 x="1700" y="840"/>
-      <p2 x="2080" y="840"/>
+      <p1 x="3660" y="200"/>
+      <p2 x="3700" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="3360" y="200"/>
+      <p2 x="3400" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="3460" y="200"/>
+      <p2 x="3500" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="840"/>
+      <p2 x="940" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="1100"/>
+      <p2 x="1740" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="1580" y="1100"/>
+      <p2 x="1600" y="1100"/>
     </wire>
     <wire>
       <p1 x="2820" y="460"/>
@@ -2250,20 +2257,16 @@ thus the delay</string>
       <p2 x="1940" y="460"/>
     </wire>
     <wire>
+      <p1 x="3120" y="460"/>
+      <p2 x="3760" y="460"/>
+    </wire>
+    <wire>
       <p1 x="1560" y="460"/>
       <p2 x="1860" y="460"/>
     </wire>
     <wire>
       <p1 x="1940" y="460"/>
       <p2 x="1960" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="3120" y="460"/>
-      <p2 x="3760" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="1900" y="1100"/>
-      <p2 x="2060" y="1100"/>
     </wire>
     <wire>
       <p1 x="1180" y="-80"/>
@@ -2274,20 +2277,20 @@ thus the delay</string>
       <p2 x="1380" y="-80"/>
     </wire>
     <wire>
-      <p1 x="3260" y="-80"/>
-      <p2 x="3400" y="-80"/>
-    </wire>
-    <wire>
-      <p1 x="3560" y="-80"/>
-      <p2 x="3600" y="-80"/>
-    </wire>
-    <wire>
       <p1 x="1220" y="-80"/>
       <p2 x="1280" y="-80"/>
     </wire>
     <wire>
       <p1 x="3100" y="80"/>
       <p2 x="3160" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="3360" y="80"/>
+      <p2 x="3400" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="3540" y="80"/>
+      <p2 x="3600" y="80"/>
     </wire>
     <wire>
       <p1 x="1240" y="720"/>
@@ -2298,12 +2301,12 @@ thus the delay</string>
       <p2 x="1460" y="720"/>
     </wire>
     <wire>
-      <p1 x="3280" y="-340"/>
-      <p2 x="3700" y="-340"/>
+      <p1 x="1060" y="980"/>
+      <p2 x="1100" y="980"/>
     </wire>
     <wire>
-      <p1 x="3160" y="-340"/>
-      <p2 x="3220" y="-340"/>
+      <p1 x="1700" y="980"/>
+      <p2 x="2080" y="980"/>
     </wire>
     <wire>
       <p1 x="1900" y="340"/>
@@ -2342,8 +2345,8 @@ thus the delay</string>
       <p2 x="1940" y="340"/>
     </wire>
     <wire>
-      <p1 x="1580" y="980"/>
-      <p2 x="1600" y="980"/>
+      <p1 x="1900" y="1240"/>
+      <p2 x="2060" y="1240"/>
     </wire>
     <wire>
       <p1 x="2820" y="600"/>
@@ -2370,24 +2373,24 @@ thus the delay</string>
       <p2 x="2280" y="600"/>
     </wire>
     <wire>
-      <p1 x="3360" y="-220"/>
-      <p2 x="3400" y="-220"/>
+      <p1 x="3360" y="220"/>
+      <p2 x="3400" y="220"/>
     </wire>
     <wire>
-      <p1 x="3540" y="-220"/>
-      <p2 x="3600" y="-220"/>
+      <p1 x="3560" y="220"/>
+      <p2 x="3600" y="220"/>
     </wire>
     <wire>
       <p1 x="1200" y="220"/>
       <p2 x="1220" y="220"/>
     </wire>
     <wire>
-      <p1 x="1080" y="860"/>
-      <p2 x="1100" y="860"/>
+      <p1 x="1000" y="860"/>
+      <p2 x="1800" y="860"/>
     </wire>
     <wire>
-      <p1 x="1160" y="860"/>
-      <p2 x="1220" y="860"/>
+      <p1 x="1580" y="1120"/>
+      <p2 x="1600" y="1120"/>
     </wire>
     <wire>
       <p1 x="2820" y="480"/>
@@ -2422,20 +2425,12 @@ thus the delay</string>
       <p2 x="3760" y="480"/>
     </wire>
     <wire>
-      <p1 x="3560" y="-100"/>
-      <p2 x="3600" y="-100"/>
+      <p1 x="3580" y="100"/>
+      <p2 x="3600" y="100"/>
     </wire>
     <wire>
-      <p1 x="3660" y="-100"/>
-      <p2 x="3700" y="-100"/>
-    </wire>
-    <wire>
-      <p1 x="3360" y="-100"/>
-      <p2 x="3400" y="-100"/>
-    </wire>
-    <wire>
-      <p1 x="3460" y="-100"/>
-      <p2 x="3500" y="-100"/>
+      <p1 x="3340" y="100"/>
+      <p2 x="3400" y="100"/>
     </wire>
     <wire>
       <p1 x="3020" y="100"/>
@@ -2450,8 +2445,12 @@ thus the delay</string>
       <p2 x="1540" y="740"/>
     </wire>
     <wire>
-      <p1 x="3140" y="-360"/>
-      <p2 x="3220" y="-360"/>
+      <p1 x="1080" y="1000"/>
+      <p2 x="1100" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="1000"/>
+      <p2 x="1220" y="1000"/>
     </wire>
     <wire>
       <p1 x="2560" y="360"/>
@@ -2523,31 +2522,15 @@ thus the delay</string>
     </wire>
     <wire>
       <p1 x="1180" y="620"/>
-      <p2 x="1880" y="620"/>
+      <p2 x="1480" y="620"/>
     </wire>
     <wire>
-      <p1 x="3380" y="-240"/>
-      <p2 x="3400" y="-240"/>
+      <p1 x="3380" y="240"/>
+      <p2 x="3400" y="240"/>
     </wire>
     <wire>
-      <p1 x="3580" y="-240"/>
-      <p2 x="3600" y="-240"/>
-    </wire>
-    <wire>
-      <p1 x="3660" y="-240"/>
-      <p2 x="3680" y="-240"/>
-    </wire>
-    <wire>
-      <p1 x="3680" y="-240"/>
-      <p2 x="3700" y="-240"/>
-    </wire>
-    <wire>
-      <p1 x="3700" y="-240"/>
-      <p2 x="3740" y="-240"/>
-    </wire>
-    <wire>
-      <p1 x="3740" y="-240"/>
-      <p2 x="3760" y="-240"/>
+      <p1 x="3580" y="240"/>
+      <p2 x="3600" y="240"/>
     </wire>
     <wire>
       <p1 x="440" y="240"/>
@@ -2570,24 +2553,16 @@ thus the delay</string>
       <p2 x="1320" y="240"/>
     </wire>
     <wire>
+      <p1 x="3740" y="240"/>
+      <p2 x="3840" y="240"/>
+    </wire>
+    <wire>
       <p1 x="1320" y="240"/>
       <p2 x="1360" y="240"/>
     </wire>
     <wire>
-      <p1 x="1660" y="880"/>
-      <p2 x="1740" y="880"/>
-    </wire>
-    <wire>
-      <p1 x="1580" y="880"/>
-      <p2 x="1600" y="880"/>
-    </wire>
-    <wire>
-      <p1 x="1280" y="880"/>
-      <p2 x="1300" y="880"/>
-    </wire>
-    <wire>
-      <p1 x="1300" y="880"/>
-      <p2 x="1360" y="880"/>
+      <p1 x="920" y="880"/>
+      <p2 x="940" y="880"/>
     </wire>
     <wire>
       <p1 x="2820" y="500"/>
@@ -2618,16 +2593,8 @@ thus the delay</string>
       <p2 x="3780" y="500"/>
     </wire>
     <wire>
-      <p1 x="3560" y="-120"/>
-      <p2 x="3680" y="-120"/>
-    </wire>
-    <wire>
-      <p1 x="3360" y="-120"/>
-      <p2 x="3480" y="-120"/>
-    </wire>
-    <wire>
-      <p1 x="3740" y="120"/>
-      <p2 x="3840" y="120"/>
+      <p1 x="3380" y="120"/>
+      <p2 x="3400" y="120"/>
     </wire>
     <wire>
       <p1 x="2780" y="120"/>
@@ -2650,12 +2617,28 @@ thus the delay</string>
       <p2 x="1260" y="760"/>
     </wire>
     <wire>
+      <p1 x="1660" y="1020"/>
+      <p2 x="1740" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="1580" y="1020"/>
+      <p2 x="1600" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1020"/>
+      <p2 x="1300" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1020"/>
+      <p2 x="1360" y="1020"/>
+    </wire>
+    <wire>
       <p1 x="2480" y="380"/>
       <p2 x="2500" y="380"/>
     </wire>
     <wire>
       <p1 x="2820" y="380"/>
-      <p2 x="3520" y="380"/>
+      <p2 x="3540" y="380"/>
     </wire>
     <wire>
       <p1 x="800" y="380"/>
@@ -2670,12 +2653,8 @@ thus the delay</string>
       <p2 x="2280" y="380"/>
     </wire>
     <wire>
-      <p1 x="3520" y="380"/>
+      <p1 x="3540" y="380"/>
       <p2 x="3760" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="1300" y="1020"/>
-      <p2 x="1700" y="1020"/>
     </wire>
     <wire>
       <p1 x="1920" y="600"/>
@@ -2702,24 +2681,28 @@ thus the delay</string>
       <p2 x="900" y="740"/>
     </wire>
     <wire>
+      <p1 x="900" y="740"/>
+      <p2 x="900" y="840"/>
+    </wire>
+    <wire>
       <p1 x="1540" y="700"/>
       <p2 x="1540" y="740"/>
     </wire>
     <wire>
-      <p1 x="3460" y="80"/>
-      <p2 x="3460" y="160"/>
+      <p1 x="1800" y="700"/>
+      <p2 x="1800" y="860"/>
     </wire>
     <wire>
-      <p1 x="3340" y="-260"/>
-      <p2 x="3340" y="-200"/>
+      <p1 x="3340" y="40"/>
+      <p2 x="3340" y="100"/>
     </wire>
     <wire>
-      <p1 x="3340" y="240"/>
-      <p2 x="3340" y="440"/>
+      <p1 x="3340" y="100"/>
+      <p2 x="3340" y="420"/>
     </wire>
     <wire>
-      <p1 x="1420" y="920"/>
-      <p2 x="1420" y="940"/>
+      <p1 x="1420" y="1060"/>
+      <p2 x="1420" y="1080"/>
     </wire>
     <wire>
       <p1 x="2060" y="500"/>
@@ -2730,16 +2713,20 @@ thus the delay</string>
       <p2 x="780" y="340"/>
     </wire>
     <wire>
+      <p1 x="1680" y="660"/>
+      <p2 x="1680" y="700"/>
+    </wire>
+    <wire>
       <p1 x="1040" y="500"/>
       <p2 x="1040" y="580"/>
     </wire>
     <wire>
-      <p1 x="3220" y="200"/>
-      <p2 x="3220" y="300"/>
+      <p1 x="1040" y="40"/>
+      <p2 x="1040" y="60"/>
     </wire>
     <wire>
-      <p1 x="1300" y="880"/>
-      <p2 x="1300" y="1020"/>
+      <p1 x="1300" y="1020"/>
+      <p2 x="1300" y="1160"/>
     </wire>
     <wire>
       <p1 x="1940" y="440"/>
@@ -2750,20 +2737,8 @@ thus the delay</string>
       <p2 x="2840" y="320"/>
     </wire>
     <wire>
-      <p1 x="3480" y="-280"/>
-      <p2 x="3480" y="-120"/>
-    </wire>
-    <wire>
-      <p1 x="3480" y="280"/>
-      <p2 x="3480" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="3480" y="200"/>
-      <p2 x="3480" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="3480" y="0"/>
-      <p2 x="3480" y="20"/>
+      <p1 x="3480" y="20"/>
+      <p2 x="3480" y="180"/>
     </wire>
     <wire>
       <p1 x="1560" y="460"/>
@@ -2779,31 +2754,35 @@ thus the delay</string>
     </wire>
     <wire>
       <p1 x="2200" y="620"/>
-      <p2 x="2200" y="1080"/>
+      <p2 x="2200" y="1220"/>
     </wire>
     <wire>
-      <p1 x="3740" y="140"/>
+      <p1 x="3740" y="260"/>
       <p2 x="3740" y="500"/>
     </wire>
     <wire>
-      <p1 x="3740" y="-240"/>
-      <p2 x="3740" y="120"/>
+      <p1 x="3740" y="60"/>
+      <p2 x="3740" y="240"/>
     </wire>
     <wire>
       <p1 x="1820" y="700"/>
-      <p2 x="1820" y="920"/>
+      <p2 x="1820" y="1060"/>
     </wire>
     <wire>
       <p1 x="1180" y="620"/>
-      <p2 x="1180" y="1080"/>
+      <p2 x="1180" y="1220"/>
     </wire>
     <wire>
-      <p1 x="3360" y="-120"/>
-      <p2 x="3360" y="-100"/>
+      <p1 x="3360" y="180"/>
+      <p2 x="3360" y="200"/>
     </wire>
     <wire>
-      <p1 x="3360" y="-220"/>
-      <p2 x="3360" y="-140"/>
+      <p1 x="3360" y="80"/>
+      <p2 x="3360" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="3360" y="220"/>
+      <p2 x="3360" y="300"/>
     </wire>
     <wire>
       <p1 x="1440" y="660"/>
@@ -2819,15 +2798,15 @@ thus the delay</string>
     </wire>
     <wire>
       <p1 x="2080" y="600"/>
-      <p2 x="2080" y="840"/>
+      <p2 x="2080" y="980"/>
     </wire>
     <wire>
-      <p1 x="1700" y="840"/>
-      <p2 x="1700" y="900"/>
+      <p1 x="1700" y="980"/>
+      <p2 x="1700" y="1040"/>
     </wire>
     <wire>
-      <p1 x="1700" y="940"/>
-      <p2 x="1700" y="1020"/>
+      <p1 x="1700" y="1080"/>
+      <p2 x="1700" y="1160"/>
     </wire>
     <wire>
       <p1 x="420" y="260"/>
@@ -2839,71 +2818,55 @@ thus the delay</string>
     </wire>
     <wire>
       <p1 x="1060" y="600"/>
-      <p2 x="1060" y="840"/>
-    </wire>
-    <wire>
-      <p1 x="3240" y="80"/>
-      <p2 x="3240" y="160"/>
+      <p2 x="1060" y="980"/>
     </wire>
     <wire>
       <p1 x="1320" y="200"/>
       <p2 x="1320" y="240"/>
     </wire>
     <wire>
-      <p1 x="1320" y="940"/>
-      <p2 x="1320" y="1060"/>
+      <p1 x="1320" y="1080"/>
+      <p2 x="1320" y="1200"/>
     </wire>
     <wire>
-      <p1 x="3500" y="180"/>
-      <p2 x="3500" y="400"/>
+      <p1 x="3500" y="160"/>
+      <p2 x="3500" y="200"/>
     </wire>
     <wire>
-      <p1 x="3500" y="80"/>
-      <p2 x="3500" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="3500" y="-140"/>
-      <p2 x="3500" y="-100"/>
-    </wire>
-    <wire>
-      <p1 x="1580" y="880"/>
-      <p2 x="1580" y="900"/>
+      <p1 x="1580" y="1020"/>
+      <p2 x="1580" y="1040"/>
     </wire>
     <wire>
       <p1 x="2220" y="300"/>
       <p2 x="2220" y="320"/>
     </wire>
     <wire>
+      <p1 x="1840" y="660"/>
+      <p2 x="1840" y="680"/>
+    </wire>
+    <wire>
       <p1 x="3120" y="120"/>
       <p2 x="3120" y="460"/>
     </wire>
     <wire>
-      <p1 x="1200" y="900"/>
-      <p2 x="1200" y="1040"/>
+      <p1 x="1200" y="1040"/>
+      <p2 x="1200" y="1180"/>
     </wire>
     <wire>
       <p1 x="1200" y="200"/>
       <p2 x="1200" y="220"/>
     </wire>
     <wire>
+      <p1 x="1200" y="-60"/>
+      <p2 x="1200" y="20"/>
+    </wire>
+    <wire>
       <p1 x="2360" y="120"/>
       <p2 x="2360" y="400"/>
     </wire>
     <wire>
-      <p1 x="3260" y="280"/>
-      <p2 x="3260" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="3260" y="200"/>
-      <p2 x="3260" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="3260" y="-80"/>
-      <p2 x="3260" y="20"/>
-    </wire>
-    <wire>
-      <p1 x="1340" y="920"/>
-      <p2 x="1340" y="940"/>
+      <p1 x="1340" y="1060"/>
+      <p2 x="1340" y="1080"/>
     </wire>
     <wire>
       <p1 x="1340" y="480"/>
@@ -2914,10 +2877,6 @@ thus the delay</string>
       <p2 x="1340" y="660"/>
     </wire>
     <wire>
-      <p1 x="3520" y="240"/>
-      <p2 x="3520" y="380"/>
-    </wire>
-    <wire>
       <p1 x="2240" y="260"/>
       <p2 x="2240" y="380"/>
     </wire>
@@ -2926,7 +2885,7 @@ thus the delay</string>
       <p2 x="1220" y="40"/>
     </wire>
     <wire>
-      <p1 x="3140" y="-360"/>
+      <p1 x="3140" y="-60"/>
       <p2 x="3140" y="20"/>
     </wire>
     <wire>
@@ -2946,20 +2905,16 @@ thus the delay</string>
       <p2 x="2120" y="360"/>
     </wire>
     <wire>
+      <p1 x="1480" y="620"/>
+      <p2 x="1480" y="640"/>
+    </wire>
+    <wire>
       <p1 x="3020" y="80"/>
       <p2 x="3020" y="100"/>
     </wire>
     <wire>
       <p1 x="1100" y="160"/>
       <p2 x="1100" y="240"/>
-    </wire>
-    <wire>
-      <p1 x="3280" y="80"/>
-      <p2 x="3280" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="3280" y="180"/>
-      <p2 x="3280" y="440"/>
     </wire>
     <wire>
       <p1 x="2640" y="260"/>
@@ -2970,16 +2925,8 @@ thus the delay</string>
       <p2 x="2640" y="340"/>
     </wire>
     <wire>
-      <p1 x="3540" y="-220"/>
-      <p2 x="3540" y="80"/>
-    </wire>
-    <wire>
-      <p1 x="3540" y="120"/>
-      <p2 x="3540" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="3540" y="140"/>
-      <p2 x="3540" y="160"/>
+      <p1 x="3540" y="80"/>
+      <p2 x="3540" y="380"/>
     </wire>
     <wire>
       <p1 x="1240" y="-40"/>
@@ -2994,11 +2941,11 @@ thus the delay</string>
       <p2 x="1240" y="720"/>
     </wire>
     <wire>
-      <p1 x="3160" y="-340"/>
+      <p1 x="3160" y="-40"/>
       <p2 x="3160" y="80"/>
     </wire>
     <wire>
-      <p1 x="1880" y="620"/>
+      <p1 x="1880" y="640"/>
       <p2 x="1880" y="660"/>
     </wire>
     <wire>
@@ -3010,28 +2957,24 @@ thus the delay</string>
       <p2 x="2140" y="400"/>
     </wire>
     <wire>
-      <p1 x="3680" y="-240"/>
-      <p2 x="3680" y="-120"/>
+      <p1 x="3680" y="60"/>
+      <p2 x="3680" y="180"/>
     </wire>
     <wire>
-      <p1 x="3300" y="240"/>
-      <p2 x="3300" y="420"/>
+      <p1 x="1120" y="20"/>
+      <p2 x="1120" y="60"/>
     </wire>
     <wire>
-      <p1 x="3560" y="240"/>
-      <p2 x="3560" y="400"/>
+      <p1 x="3560" y="180"/>
+      <p2 x="3560" y="200"/>
     </wire>
     <wire>
-      <p1 x="3560" y="-120"/>
-      <p2 x="3560" y="-100"/>
+      <p1 x="3560" y="40"/>
+      <p2 x="3560" y="160"/>
     </wire>
     <wire>
-      <p1 x="3560" y="-260"/>
-      <p2 x="3560" y="-140"/>
-    </wire>
-    <wire>
-      <p1 x="3560" y="-80"/>
-      <p2 x="3560" y="0"/>
+      <p1 x="3560" y="220"/>
+      <p2 x="3560" y="300"/>
     </wire>
     <wire>
       <p1 x="360" y="160"/>
@@ -3047,11 +2990,11 @@ thus the delay</string>
     </wire>
     <wire>
       <p1 x="360" y="700"/>
-      <p2 x="360" y="900"/>
+      <p2 x="360" y="1040"/>
     </wire>
     <wire>
-      <p1 x="1900" y="1060"/>
-      <p2 x="1900" y="1100"/>
+      <p1 x="1900" y="1200"/>
+      <p2 x="1900" y="1240"/>
     </wire>
     <wire>
       <p1 x="1260" y="460"/>
@@ -3067,31 +3010,15 @@ thus the delay</string>
     </wire>
     <wire>
       <p1 x="2160" y="560"/>
-      <p2 x="2160" y="920"/>
+      <p2 x="2160" y="1060"/>
     </wire>
     <wire>
-      <p1 x="3440" y="200"/>
-      <p2 x="3440" y="300"/>
+      <p1 x="3700" y="160"/>
+      <p2 x="3700" y="200"/>
     </wire>
     <wire>
-      <p1 x="3700" y="-140"/>
-      <p2 x="3700" y="-100"/>
-    </wire>
-    <wire>
-      <p1 x="3700" y="-340"/>
-      <p2 x="3700" y="-240"/>
-    </wire>
-    <wire>
-      <p1 x="3320" y="-260"/>
-      <p2 x="3320" y="80"/>
-    </wire>
-    <wire>
-      <p1 x="3320" y="120"/>
-      <p2 x="3320" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="3320" y="140"/>
-      <p2 x="3320" y="160"/>
+      <p1 x="3700" y="-40"/>
+      <p2 x="3700" y="60"/>
     </wire>
     <wire>
       <p1 x="2040" y="460"/>

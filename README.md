@@ -11,15 +11,26 @@ The brainfuck CPU features a preprocessor that performs transformations on the c
 - transforms `-` and `<` instructions into `+` and `>` respectively, with a negative operand
 - transforms `[` and `]` into conditional JMPs
 
-Might be of interest
+### Might be of interest
 - bf_cpu_module_w_console.dig
 - bf_cpu_module_w_custom_rgb.dig
 
 Remember to set the BF program in Digital > Edit > Circuit specific settings > Advanced > Program file
 
-How to use:
+### How to use:
 - Download [Digital](https://github.com/hneemann/Digital/releases)
 - Clone this repository
 - In Digital, you might need to set `Edit > Settings > Advanced > Library` to the path of your clone of this repo.
 - Open `bf_cpu_module_w_console.dig``
 - Run
+
+![](screenshots/mandelbrot.png)
+
+
+![](screenshots/beer.png)
+
+
+![](screenshots/hw.png)
+
+
+![](screenshots/cpu.png)

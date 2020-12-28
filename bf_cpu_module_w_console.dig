@@ -169,7 +169,7 @@ a,2e,2d,2d,2d,2e,2b,2b,2b,2b,2b,2b,2e,2d,2d,2d,2d,2d,2d,2d,2e,2d,2d,2d,2d,2d,2d,
       <pos x="400" y="180"/>
     </visualElement>
     <visualElement>
-      <elementName>bf_2_module.dig</elementName>
+      <elementName>bf_cpu_module.dig</elementName>
       <elementAttributes/>
       <pos x="200" y="100"/>
     </visualElement>
